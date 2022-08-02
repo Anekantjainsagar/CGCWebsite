@@ -1,0 +1,52 @@
+@media (max-width:500px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: 9px;
+    }
+    
+    .logoStyle{
+        width: 28%;
+        padding: 0.2rem;
+    }
+    
+    .navbar{
+        display: flex;
+        background-color:rgb(241, 241, 241);
+        padding: 0.3rem 0.5rem;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navItems{
+        width: 65%;
+        list-style-type: none;
+        margin-top: 1.2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .navItems li a{
+        text-decoration: none;
+        font-size: 2rem;
+        color: rgb(104, 104, 104);
+    }
+    
+    .navItems li a:hover{
+        color: rgb(0, 0, 0);
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* Landing Page */
+    .mainBackground{
+        background-image: url('./Assets/college.jpg') ;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        margin-top: 6rem;
+    }
+}
