@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/CGCWebsite/static/css/main.96f3842b.css",
+    "main.js": "/CGCWebsite/static/js/main.5e36021a.js",
+    "static/media/IMG20220427172652.jpg": "/CGCWebsite/static/media/IMG20220427172652.e239348c622e27e9f7c5.jpg",
+    "static/media/IMG20220427172816.jpg": "/CGCWebsite/static/media/IMG20220427172816.abe180c069348ac2d904.jpg",
+    "static/media/IMG63836.jpg": "/CGCWebsite/static/media/IMG63836.79fa42b183eca8ec0325.jpg",
+    "static/media/college.jpg": "/CGCWebsite/static/media/college.1453d4b1b7fad17289cb.jpg",
+    "static/media/director.jpg": "/CGCWebsite/static/media/director.1b12dc2fc199162f301b.jpg",
+    "static/media/logo.png": "/CGCWebsite/static/media/logo.cbe8fa35cd2d18c2e4e6.png",
+    "index.html": "/CGCWebsite/index.html",
+    "main.96f3842b.css.map": "/CGCWebsite/static/css/main.96f3842b.css.map",
+    "main.5e36021a.js.map": "/CGCWebsite/static/js/main.5e36021a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96f3842b.css",
+    "static/js/main.5e36021a.js"
+  ]
+}
