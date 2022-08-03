@@ -6,6 +6,7 @@ import LandingPage from './Components/LandingPage';
 import './App.css'
 import './responsive.css'
 import DirectorMsg from './Components/DirectorMsg';
+import Processes from './Components/Processes';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <LandingPage/>
       <DirectorMsg/>
+      <Processes/>
     </>
   );
 }
