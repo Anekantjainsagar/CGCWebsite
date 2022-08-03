@@ -5,6 +5,25 @@
     font-size: 10px;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 /* Navbar Styling */
 .logoStyle{
     width: 10%;
@@ -13,14 +32,17 @@
 
 .navbar{
     display: flex;
-    background-color:rgb(241, 241, 241);
+    background-color:rgba(221, 221, 221, 0.527);
+    border-radius: 5rem;
     position:fixed;
     top: 0;
     left: 0;
     padding: 0.3rem 0.5rem;
-    width: 100vw;
+    width: 90vw;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
+    margin: 1rem 6rem;
 }
 
 .navItems{
@@ -35,7 +57,7 @@
 .navItems li a{
     text-decoration: none;
     font-size: 2rem;
-    color: rgb(104, 104, 104);
+    color: white;
 }
 
 .navItems li a:hover{
@@ -43,19 +65,13 @@
     transition: all 0.5s ease-in-out;
 }
 
-/* Landing Page */
-.mainBackground{
-    background-image: url('./Assets/college.jpg') ;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
+.slideImage{
     height: 100vh;
-    background-repeat: no-repeat;
-    margin-top: 6rem;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Director Part */
-
 .directorPage{
     display: flex;
     flex-direction: row;
@@ -111,7 +127,7 @@
     padding: 1rem 2rem;
     position: absolute;
     width:80%;
-    top: 135%;
+    top: 145%;
     left:50%;
     transform: translate(-50%,-50%);
     box-shadow: 0.5rem 0.5rem 0.5rem rgb(94, 94, 94);
@@ -119,4 +135,29 @@
 
 .Model p{
     font-size: 20px;
+}
+
+/* Footer */
+.Footer{
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    justify-content: space-evenly;
+}
+
+.Footer p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.Footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 8vw;
+    margin-right: 5rem;
 }
